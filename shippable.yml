@@ -2,10 +2,10 @@ language: python
 
 python:
   - 2.7
-  - 2.6
+  #- 2.6
 env:
   global:
-    - APP_NAME=php-mongo-beta
+    - APP_NAME=python-couchdb
     
 after_success :
   - git push -f git@heroku.com:$APP_NAME.git master
