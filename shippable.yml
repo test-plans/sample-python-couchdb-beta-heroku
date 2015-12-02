@@ -8,6 +8,7 @@ python:
 services:
   - couchdb
 
+
 install:
   - pip install -r requirements.txt
 
@@ -18,7 +19,6 @@ before_script:
 
 archive: true
 script: true
-
 
 #cache: true
 after_script:
