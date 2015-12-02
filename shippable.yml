@@ -35,5 +35,7 @@ branches:
 
 notifications:
   irc:
-   # - "chat.freenode.net#test-irc"
+   pull_requests: true
+   channels:
+     - "chat.freenode.net#test-irc"
      - "chat.freenode.net#testing2"
