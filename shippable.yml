@@ -27,9 +27,7 @@ after_script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
   
-branches:
-    except:
-     - master
+
      
 #build_image: shippable/minv2:beta
 
