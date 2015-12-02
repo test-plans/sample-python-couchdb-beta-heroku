@@ -33,3 +33,10 @@ branches:
      - master
      
 #build_image: shippable/minv2:beta
+
+notifications:
+  irc:
+   #pull_requests: true
+   channels:
+    # - "chat.freenode.net#test-irc"
+     - "chat.freenode.net#testing2"
