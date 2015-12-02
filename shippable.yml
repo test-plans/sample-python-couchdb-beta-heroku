@@ -35,5 +35,5 @@ branches:
 
 notifications:
   irc:
-    - "chat.freenode.net#test-irc"
-    # - "chat.freenode.net#testing2"
+   # - "chat.freenode.net#test-irc"
+     - "chat.freenode.net#testing2"
